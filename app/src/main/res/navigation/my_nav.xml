@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.bmicalculator_ideal.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_resultFragement"
+            app:destination="@id/resultFragement" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragement"
+        android:name="com.example.bmicalculator_ideal.ResultFragement"
+        android:label="fragment_result_fragement"
+        tools:layout="@layout/fragment_result_fragement" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.bmicalculator_ideal.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>
