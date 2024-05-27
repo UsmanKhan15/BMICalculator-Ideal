@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.bmicalculator_ideal"
+        applicationId = "com.devgatestation.bmicalculator_ideal"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

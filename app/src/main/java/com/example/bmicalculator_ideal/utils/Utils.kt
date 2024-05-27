@@ -27,7 +27,7 @@ class Utils {
 
         fun contactUs(context: Context) {
             val intent = Intent(Intent.ACTION_SENDTO)
-            intent.data = Uri.parse("mailto:raiwaapps@gmail.com")
+            intent.data = Uri.parse("mailto:ayesha.sharif48@gmail.com")
             intent.putExtra(Intent.EXTRA_SUBJECT, "Subject of the email")
             context.startActivity(intent)
         }

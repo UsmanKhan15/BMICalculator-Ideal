@@ -25,7 +25,7 @@ class SettingFragment : Fragment() {
         binding.parentPrivacyPolicy.setOnClickListener {
             openLink(
                 requireActivity(),
-                "https://sites.google.com/view/raiwa-bmi-cal-privacy-policy/home"
+                "https://sites.google.com/view/privacypolicy-bmi/home"
             )
         }
         binding.parentShareApp.setOnClickListener {
@@ -34,7 +34,7 @@ class SettingFragment : Fragment() {
         binding.parentTerms.setOnClickListener {
             openLink(
                 requireActivity(),
-                "https://www.imagetotext.info/storage/pdf/1715152556.pdf"
+                "https://sites.google.com/view/termsbmicalculator/home"
             )
         }
         binding.parentFeedback.setOnClickListener {
