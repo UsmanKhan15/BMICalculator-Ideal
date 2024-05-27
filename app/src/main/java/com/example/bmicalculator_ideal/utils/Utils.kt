@@ -20,11 +20,6 @@ class Utils {
 
         var gender = "Male"
 
-        var langaugeSetting = false
-        var langaugeSettingVisited = false
-
-        const val REQUEST_IMAGE_PICK = 100
-
         fun contactUs(context: Context) {
             val intent = Intent(Intent.ACTION_SENDTO)
             intent.data = Uri.parse("mailto:ayesha.sharif48@gmail.com")
