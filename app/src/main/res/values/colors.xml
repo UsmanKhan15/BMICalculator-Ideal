@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="appcolor">#961818</color>
     <color name="appgray">#DCDCDC</color>
+    <color name="red">#F84747</color>
+    <color name="blue">#1251D4</color>
+    <color name="yellow">#FFCE00</color>
+    <color name="green">#79BF2E</color>
 </resources>

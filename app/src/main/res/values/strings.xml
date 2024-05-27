@@ -2,4 +2,33 @@
     <string name="app_name">BMI Calculator - Ideal</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drink_coffee_or_tea">Drink coffee or tea &amp; avoid sugary food</string>
+    <string name="do_seated">Do seated leg lifts, arm circles, wall push-ups, seated marching, and side bends for a low-impact routine.</string>
+    <string name="drink_water">Drink water a half hour before meals</string>
+    <string name="quality_sleep">Get quality sleep.</string>
+    <string name="use_bigger_plates">Use bigger plates.</string>
+    <string name="don_drink_water">Do not drink water before meals.</string>
+    <string name="settings">Settings</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="my_profile">My Profile</string>
+    <string name="normal_weight">(Normal Weight)</string>
+    <string name="severe_thinness">(Severe Thinness)</string>
+    <string name="severe_thinness1">Severe Thinness</string>
+    <string name="moderate_thinness">(Moderate Thinness)</string>
+    <string name="moderate_thinness1">Moderate Thinness</string>
+    <string name="mild_thinness">(Mild Thinness)</string>
+    <string name="mild_thinness1">Mild Thinness</string>
+    <string name="normal">(Normal)</string>
+    <string name="normal1">Normal</string>
+    <string name="overweight">(Overweight)</string>
+    <string name="overweight1">Overweight</string>
+    <string name="Obese_class_I">(Obese Class I)</string>
+    <string name="Obese_Class_I1">Obese Class I</string>
+    <string name="Obese_Class_II">(Obese Class II)</string>
+    <string name="Obese_Class_II1">Obese Class II</string>
+    <string name="Obese_Class_III">(Obese Class III)</string>
+    <string name="Obese_Class_III1">Obese Class III</string>
+    <string name="stay_active">Stay active.</string>
+    <string name="do_exercises">Do exercises like squats, lunges, push-ups, jogging, and bicycle crunches into your routine for a balanced workout.</string>
+    <string name="focus_on_relaxation_and_sleep">Focus on relaxation and sleep.</string>
 </resources>
