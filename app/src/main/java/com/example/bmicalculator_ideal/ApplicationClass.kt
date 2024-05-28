@@ -14,26 +14,14 @@ class ApplicationClass : Application(), LifecycleObserver, Application.ActivityL
         super.onCreate()
         context = this
         registerActivityLifecycleCallbacks(this)
-        applicationHandler = Handler(
-            applicationContext.mainLooper
-        )
     }
 
     companion object {
-        @Volatile
-        lateinit var applicationHandler: Handler
         fun getContext(): Context {
             return context.applicationContext
         }
 
         private lateinit var context: Context
-    }
-
-
-    @OnLifecycleEvent(Lifecycle.Event.ON_START)
-    fun onMoveToForeground() {
-//        if(isShowOpen)
-//            admobOpen.showOpenAd(context as Activity) {}
     }
 
     override fun onActivityCreated(p0: Activity, p1: Bundle?) {
